@@ -1,2 +1,4 @@
+include README.md
 recursive-include octoprint_externallogout/templates *
+recursive-include octoprint_externallogout/translations *
 recursive-include octoprint_externallogout/static *
