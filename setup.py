@@ -2,7 +2,7 @@ from setuptools import setup
 
 PLUGIN_IDENTIFIER = "octoprint_externallogout"
 PLUGIN_NAME = "External Logout"
-PLUGIN_VERSION = "0.2.3"
+PLUGIN_VERSION = "1.0.0"
 PLUGIN_PACKAGES = ["octoprint_externallogout"]
 PLUGIN_REQUIRES = []
 
