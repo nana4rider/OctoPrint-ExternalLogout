@@ -4,7 +4,7 @@ Redirects OctoPrint's existing Logout action to an external identity provider's 
 
 ## Setup
 
-Install through OctoPrint's [Plugin Manager](https://docs.octoprint.org/en/main/bundledplugins/pluginmanager.html), or use this URL to install manually:
+This plugin is not registered with the OctoPrint Plugin Repository. Install it manually by using this URL in OctoPrint's [Plugin Manager](https://docs.octoprint.org/en/main/bundledplugins/pluginmanager.html):
 
 <https://github.com/nana4rider/OctoPrint-ExternalLogout/archive/main.zip>
 
