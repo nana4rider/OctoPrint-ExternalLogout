@@ -2,7 +2,7 @@
 layout: plugin
 
 id: externallogout
-title: OctoPrint-Externallogout
+title: OctoPrint-ExternalLogout
 description: Adds a header link to log out through an external identity provider.
 authors:
 - nana4rider
@@ -11,9 +11,9 @@ license: AGPL-3.0-or-later
 # TODO
 date: today's date in format YYYY-MM-DD, e.g. 2015-04-21
 
-homepage: https://github.com/nana4rider/OctoPrint-Externallogout
-source: https://github.com/nana4rider/OctoPrint-Externallogout
-archive: https://github.com/nana4rider/OctoPrint-Externallogout/archive/main.zip
+homepage: https://github.com/nana4rider/OctoPrint-ExternalLogout
+source: https://github.com/nana4rider/OctoPrint-ExternalLogout
+archive: https://github.com/nana4rider/OctoPrint-ExternalLogout/archive/main.zip
 
 # TODO
 # Set this to true if your plugin uses the dependency_links setup parameter to include
@@ -88,7 +88,7 @@ compatibility:
   # Compatible Python version
   #
   # It is recommended to only support Python 3 for new plugins, in which case this should be ">=3,<4"
-  # 
+  #
   # Plugins that wish to support both Python 2 and 3 should set it to ">=2.7,<4".
   #
   # Plugins that only support Python 2 will not be accepted into the plugin repository.
