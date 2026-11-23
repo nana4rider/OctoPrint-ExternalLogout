@@ -1,0 +1,2 @@
+recursive-include octoprint_externallogout/templates *
+recursive-include octoprint_externallogout/static *
