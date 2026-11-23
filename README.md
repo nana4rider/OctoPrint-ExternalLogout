@@ -10,6 +10,16 @@ Install through OctoPrint's [Plugin Manager](https://docs.octoprint.org/en/main/
 
 ## Configuration
 
-After installation, open **Settings → Plugin Manager → External Logout** and set **Identity provider logout URL** to the URL provided by your IdP or authentication proxy.
+After installation, open **Settings → Plugin Manager → External Logout** and set **External logout URL** to the URL provided by your IdP or authentication proxy.
 
 When the URL is blank, OctoPrint's normal logout behavior remains active. In header-authentication setups where OctoPrint's built-in logout is unavailable, the plugin ends the local OctoPrint session before redirecting to the configured URL. Configure the IdP's post-logout redirect target there if desired, using a URL that your IdP accepts and allowlists.
+
+## Development
+
+From the repository root, create a virtual environment and install the plugin with its development dependencies:
+
+```bash
+python3 -m venv .venv
+.venv/bin/python -m pip install --editable ".[develop]"
+.venv/bin/pre-commit install --hook-type pre-commit
+```

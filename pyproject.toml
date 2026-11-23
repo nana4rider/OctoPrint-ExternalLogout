@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "OctoPrint-ExternalLogout"
-version = "1.1.0"
+version = "1.1.1"
 description = "Adds a header link to log out through an external identity provider."
 readme = { file = "README.md", content-type = "text/markdown" }
 dynamic = ["license"]
@@ -27,4 +27,8 @@ octoprint_externallogout = "octoprint_externallogout"
 Homepage = "https://github.com/nana4rider/OctoPrint-ExternalLogout"
 
 [project.optional-dependencies]
-develop = ["go-task-bin"]
+develop = [
+    "go-task-bin",
+    "ruff",
+    "pre-commit",
+]

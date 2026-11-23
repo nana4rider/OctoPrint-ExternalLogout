@@ -1,11 +1,11 @@
 import octoprint.plugin
 
+
 class ExternalLogoutPlugin(
     octoprint.plugin.SettingsPlugin,
     octoprint.plugin.AssetPlugin,
     octoprint.plugin.TemplatePlugin,
 ):
-
     ##~~ SettingsPlugin mixin
 
     def get_settings_defaults(self):
@@ -42,6 +42,7 @@ class ExternalLogoutPlugin(
 
 __plugin_name__ = "External Logout"
 __plugin_pythoncompat__ = ">=3.7,<4"
+
 
 def __plugin_load__():
     global __plugin_implementation__
